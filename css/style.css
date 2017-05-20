@@ -1,0 +1,129 @@
+.navbar-brand {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 24px;
+  padding-left: 0;
+}
+.navbar-brand img {
+  margin-top: -5px;
+  margin-left: 0;
+  display: inline-block;
+}
+.user-list {
+  list-style-type: none;
+  padding: 10px 0;
+}
+.user-list li {
+  margin: 0 20px 20px 0;
+  width: 157px;
+  height: 100px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.user-list li .balance {
+  margin-top: 10px;
+}
+.user-list li .name {
+  width: 130px;
+  margin-top: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.user-list li:hover {
+  text-decoration: none;
+}
+.user-list li.create-user {
+  font-size: 70px;
+  text-align: center;
+  line-height: 93px;
+}
+button.back {
+  width: 100%;
+}
+.negative,
+.change-negative {
+  color: #d9230f;
+}
+.change-positive {
+  color: #4da309;
+}
+.balance,
+.account-balance {
+  -webkit-transition: color 0.5s ease-in, font-size 0.5s ease-in;
+}
+.balance.change-negative,
+.account-balance.change-negative,
+.balance.change-positive,
+.account-balance.change-positive {
+  letter-spacing: 2px;
+  font-size: 78px !important;
+  -webkit-transition: all 0.03s ease-in;
+}
+.user .account-balance {
+  text-align: right;
+  font-size: 72px;
+}
+.user .credit .btn {
+  min-width: 110px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+.user .back {
+  margin-top: 42px;
+}
+.pagination {
+  cursor: pointer;
+}
+.metrics .metric {
+  text-align: center;
+}
+.metrics .metric h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.metrics .metric span {
+  font-size: 34px;
+  font-weight: bold;
+}
+.metrics .chart {
+  height: 300px;
+  width: 10%;
+}
+.impress {
+  text-align: center;
+  font-size: 11px;
+  list-style: none;
+  margin-top: 50px;
+}
+.impress a {
+  padding: 7px 0;
+}
+.impress li {
+  display: inline;
+}
+.impress li:last-child:after {
+  display: none;
+}
+.impress li:after {
+  content: '';
+  margin: 0 10px;
+  border-right: 1px solid #cccccc;
+}
+.tc-chart-js-legend {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.tc-chart-js-legend li {
+  display: block;
+  float: left;
+  clear: both;
+  padding: 10px;
+}
+.tc-chart-js-legend li span {
+  width: 25px;
+  height: 25px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
