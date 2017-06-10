@@ -37,7 +37,7 @@ var settings = {
         deposit: [0.50, 1.00, 2.00, 5.00, 10.00],
 
         // payment steps for payment
-        dispense: [0.50, 1.00, 1.50, 2.00, 0.70],
+        dispense: [0.50, 1.00, 1.20, 1.50, 2.00],
 
         // enables custom transactions. If enabled, payment steps are reduced
         // to only 4 steps
@@ -58,7 +58,7 @@ var settings = {
         timezone: 'auto',
 
         // preferred language of strichliste
-        preferredLanguage: 'en',
+        preferredLanguage: 'de',
 
         // your currency
         currency: "€"

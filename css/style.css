@@ -127,3 +127,16 @@ button.back {
   float: left;
   margin-right: 10px;
 }
+
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 5px;
+      text-align: left;
+    }
+    table{ min-width: 90%; margin-left: 5%; }
+    table tr:nth-child(even) { background-color: #fdd; }
+    table tr:nth-child(odd) { background-color:#fff0f0; }
+    table th#foo  { background-color: orange; color: white; }
